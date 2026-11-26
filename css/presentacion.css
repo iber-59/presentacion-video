@@ -1,0 +1,39 @@
+/* Estilos extra para presentacion.html */
+.lema {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.lista-secciones {
+    line-height: 1.8;
+    padding-left: 20px;
+}
+
+.lista-secciones a {
+    text-decoration: none;
+}
+
+.lista-secciones a:hover {
+    text-decoration: underline;
+}
+
+#presentacion-cierre .enlace-juego {
+    display: inline-block;
+    margin-top: 12px;
+}
+code {
+    background: rgba(255, 255, 255, 0.12);
+    color: #ff9e64;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: Consolas, monospace;
+}
+#presentacion-contenido video {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}

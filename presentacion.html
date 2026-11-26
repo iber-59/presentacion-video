@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación del proyecto | Elige Vivir</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/presentacion.css">
+    <script src="js/menu.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Presentación del proyecto</h1>
+        <p>Conoce qué es Elige Vivir, por qué lo hicimos y qué encontrarás en el sitio.</p>
+
+        <button id="btnMenu" class="btn-menu" aria-label="Abrir menú" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="menuPrincipal">
+            <a href="index.html#inicio">Inicio</a>
+            <a href="index.html#informacion">Información</a>
+            <a href="juegoDePalabras.html">Completa las palabras</a>
+            <a href="quiz.html">Cuestionario</a>
+            <a href="index.html#equipo">Nuestro equipo</a>
+            <a href="registro.html">Registro</a>
+            <a href="consejos.html">Consejo del día</a>
+            <a href="presentacion.html">Presentación del proyecto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="presentacion-intro" class="principal">
+            <h2>¿Qué es Elige Vivir?</h2>
+            <p>Elige Vivir es un proyecto educativo creado por estudiantes para promover la prevención del consumo de sustancias controladas, el acceso a información confiable y las decisiones saludables.</p>
+            <p class="lema">Decir NO a las drogas es decir SÍ a tus sueños, a tu salud y a los que te quieren.</p>
+        </section>
+
+        <section id="presentacion-objetivos">
+            <h2>Nuestros objetivos</h2>
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <h3>🎯 Informar</h3>
+                    <p>Compartir información y contactos de ayuda para que cualquier persona sepa dónde acudir.</p>
+                </article>
+                <article class="tarjeta">
+                    <h3>💪 Prevenir</h3>
+                    <p>Fomentar que cada persona tome sus propias decisiones y aprenda a decir NO ante la presión.</p>
+                </article>
+                <article class="tarjeta">
+                    <h3>🤝 Acompañar</h3>
+                    <p>Recordar que hablar con alguien de confianza y pedir apoyo es una muestra de valentía.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="presentacion-contenido">
+            <h2>Video explicativo</h2>
+               
+                <video src="videos/Presentacion.mp4" controls preload="metadata"></video>
+               
+        </section>
+
+        <section id="presentacion-tecnologias">
+            <h2>¿Cómo lo hicimos?</h2>
+            <p>El sitio fue desarrollado como actividad educativa usando:</p>
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <h3>HTML</h3>
+                    <p>Estructura y contenido de cada página.</p>
+                </article>
+                <article class="tarjeta">
+                    <h3>CSS</h3>
+                    <p>Diseño, colores, animaciones y menú adaptable.</p>
+                </article>
+                <article class="tarjeta">
+                    <h3>JavaScript</h3>
+                    <p>Cuestionario, juego de palabras, registro y consejos interactivos.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="presentacion-equipo">
+            <h2>Integrantes</h2>
+            <ul>
+               
+                <li>Cayola Limbert</li>
+                
+                <li>Mendieta Arnez Ibernon</li>
+            </ul>
+        </section>
+
+        <section id="presentacion-cierre">
+            <h2>Conclusión</h2>
+            <p> Con este proyecto comprendimos que una página web se construye en tres capas que trabajan juntas: HTML para la estructura, CSS para el diseño y JavaScript para la funcionalidad. Las etiquetas aprendidas nos permitieron crear un sitio ordenado, accesible y con herramientas interactivas. Las etiquetas semánticas como <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code> y <code>&lt;footer&gt;</code> dieron orden al código; con <code>&lt;form&gt;</code>, <code>&lt;label&gt;</code>, <code>&lt;input&gt;</code> y <code>&lt;button&gt;</code> aprendimos a recoger datos, y con <code>&lt;table&gt;</code> a mostrarlos con claridad. Los atributos <code>id</code> y <code>class</code> fueron el puente entre las tres capas, porque permiten que el CSS aplique estilos y que el JavaScript modifique cada elemento. Esto se vio en el registro de personas, donde validamos datos, evitamos carnets repetidos y los guardamos con <code>localStorage</code>, y en los consejos del día, donde elegimos contenido al azar y lo animamos para mejorar la experiencia del usuario.
+            </p><p>También aprendimos buenas prácticas como la accesibilidad, la adaptación al celular y los mensajes de error en tiempo real, y reconocimos las limitaciones del proyecto: al guardar los datos solo en el navegador, la información no se comparte entre dispositivos, y un sistema real necesitaría un servidor y medidas de seguridad. Finalmente, el trabajo nos mostró que la tecnología puede ponerse al servicio de un tema con valor social: la prevención y el cuidado de la salud. Los consejos sobre hacer deporte, hablar con alguien de confianza y decir no a la presión demuestran que una página web no es solo código, sino también una herramienta para informar y promover decisiones saludables, especialmente entre los jóvenes.
+             </p>
+            <a class="enlace-juego" href="index.html">← Volver al inicio</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Elige Vivir — Proyecto educativo de prevención</p>
+    </footer>
+</body>
+</html>
